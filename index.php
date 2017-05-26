@@ -6,5 +6,5 @@
 
 <body>
   Hello World <br>
-Your IP address is <? echo $_SERVER["REMOTE_ADDR"]; ?>
+Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?>
 </body>
