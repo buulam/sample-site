@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    font: verdana;
+    font-family: Verdana, Geneva, sans-serif;
     color: #D7DBDD;
     margin-left: 20px;
 }
