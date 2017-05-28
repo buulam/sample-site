@@ -8,5 +8,5 @@
 <body>
 
   <h1>Hello World</h1> <br>
-Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?>
+<h2>Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?></h2>
 </body>
