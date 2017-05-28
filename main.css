@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
-    color: navy;
+    font: verdana;
+    color: #D7DBDD;
     margin-left: 20px;
 }

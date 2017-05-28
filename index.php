@@ -5,9 +5,8 @@
   </title>
 </head>
 
-<body style="background-color:#34495E">
-  <font face="verdana" color="#D7DBDD">
+<body>
+
   <h1>Hello World</h1> <br>
 Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?>
-test</font>
 </body>
