@@ -12,11 +12,12 @@ $start = $time;
   </title>
 </head>
 
-<body style="background-color:#34495E">
-  <font face="verdana" color="#D7DBDD">
+<body>
+
   <h1>Hello World</h1> <br>
-Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?>
-test</font>
+
+<h2>Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?></h2>
+
 
 <?php
 $time = microtime();
@@ -27,4 +28,5 @@ $total_time = round(($finish - $start), 4);
 echo 'Page generated in '.$total_time.' seconds.';
 ?>
   
+
 </body>
