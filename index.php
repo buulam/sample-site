@@ -19,14 +19,14 @@ $start = $time;
 <h2>Your IP address is <?php echo $_SERVER["REMOTE_ADDR"]; ?></h2>
 
 
-<?php
+<h4><?php
 $time = microtime();
 $time = explode(' ', $time);
 $time = $time[1] + $time[0];
 $finish = $time;
 $total_time = round(($finish - $start), 4);
 echo 'Page generated in '.$total_time.' seconds.';
-?>
+  ?></h4>
   
 
 </body>
