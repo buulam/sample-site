@@ -14,3 +14,10 @@ h2 {
   color: #D7DBDD;
   text-align: center;
 }
+
+h4 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #D7DBDD;
+  text-align: center;
+  font-size: 10px;
+}
